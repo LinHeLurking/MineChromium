@@ -38,8 +38,8 @@ tasks {
 
     withType<KotlinCompile> {
         kotlinOptions { jvmTarget = javaVersion.toString() }
-        sourceCompatibility = javaVersion.toString()
-        targetCompatibility = javaVersion.toString()
+//        sourceCompatibility = javaVersion.toString()
+//        targetCompatibility = javaVersion.toString()
     }
 
     jar {
